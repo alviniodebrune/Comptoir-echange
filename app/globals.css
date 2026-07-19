@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #ECEEEA;
+  color: #1C2A2E;
+}
+
+.perforation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.perforation-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ECEEEA;
+  border: 1px solid #B7BFB9;
+  }
